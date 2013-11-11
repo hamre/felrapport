@@ -35,7 +35,7 @@ class user extends DB_Connect {
      * Encrypts password with salt and SHA-512
      */
     public function crypt_password($password) {
-        $salt = '$6$f4s$]sJ6K>$EVf`+<F_<vPO|eL|#]P?4km/JAFaeS6Par!e+4]p[6v4}UUO-i![i';
+        $salt = '';
         $passwordcrypt = crypt($password, $salt);
 
         return $passwordcrypt;

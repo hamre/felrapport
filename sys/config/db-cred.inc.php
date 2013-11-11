@@ -12,15 +12,15 @@ $C['DB_HOST'] = '127.0.0.1';
 /*
  * The database username
  */
-$C['DB_USER'] = 'hogbergs';
+$C['DB_USER'] = '';
 
 /*
  * The database password
  */
-$C['DB_PASS'] = 'spUx6xep';
+$C['DB_PASS'] = '';
 
 /*
  * The name of the database to work with
  */
-$C['DB_NAME'] = 'hogbergsbuss_se_bussar';
+$C['DB_NAME'] = '';
 ?>

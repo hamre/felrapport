@@ -1,0 +1,26 @@
+<?php
+/*
+ * Create an empty array to store constants
+ */
+$C = array();
+
+/*
+ * The database host URL
+ */
+$C['DB_HOST'] = 'hogbergsbuss_se_bussar';
+
+/*
+ * The database username
+ */
+$C['DB_USER'] = 'hogbergs';
+
+/*
+ * The database password
+ */
+$C['DB_PASS'] = 'spUx6xep';
+
+/*
+ * The name of the database to work with
+ */
+$C['DB_NAME'] = 'bussar';
+?>
